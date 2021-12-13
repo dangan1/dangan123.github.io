@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<navgroups product="vbulletin">
+
+       <navgroup text="MARCO1 Hide All" displayorder="2">
+
+                <navoption displayorder="10">
+                        <text>Members Settings</text>
+                     <link>options.php?dogroup=MARCO1_hide</link>
+                                        </navoption>
+
+                <navoption displayorder="20">
+                        <text>Guests Settings</text>
+                        <link>options.php?dogroup=MARCO1_hide2</link>
+                </navoption>
+
+                <navoption displayorder="30">
+                        <text>Attachments Settings</text>
+                        <link>options.php?dogroup=MARCO1_hide3</link>
+
+                </navoption>
+				<navoption displayorder="30">
+                        <text>Messages Manager</text>
+                        <link>options.php?dogroup=marco1_hide_messages</link>
+
+                </navoption>
+				
+				<navoption displayorder="30">
+                        <text>Version Checker</text>
+                        <link>MARCO1_hide_all_version_checker.php</link>
+
+                </navoption>
+				
+        </navgroup>
+
+
+</navgroups>
